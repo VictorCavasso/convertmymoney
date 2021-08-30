@@ -15,6 +15,7 @@ app.get('/', async (req, res) => {
         cotacao
     })
 })
+
 app.get('/cotacao', (req, res) => {
     const { cotacao, quantidade } = req.query
 
